@@ -1,4 +1,4 @@
-# Fractal
+# Fractal L-System
 ## Contenido:
 1. Fractal.py: Este es un ejercicio de un fractal de tipo Sistem Lindenmayer o L-System, que construye una figura a partir de trazos diagonales, esto lo logra con ayuda de caracteristicas que determinan los lados a los que se dirige cada trazo y una letra que representa si el sistema debe avanzar.
 
