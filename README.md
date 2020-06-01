@@ -6,6 +6,6 @@
    - Este fractal esde iteraciones aleatorias.
    - Solamente se puede manejar hasta un maximos de 6 iteraciones en el fractal.
   
-2. Fractal.pdf: Este es un archivo que contiene la explicación con respecto al funcionamiento del fractal, el codigo y que funcion es la que cumple tanto la libreria "turtle" como un sistema L-System
+2. Explicación_Fractal.pdf: Este es un archivo que contiene la explicación con respecto al funcionamiento del fractal, el codigo y que funcion es la que cumple tanto la libreria "turtle" como un sistema L-System
 
 3. ResultadoFractal.png: Este archivo es una imagen que muestra el fractal que se obtuvo como resultado al ejecutar el código.
