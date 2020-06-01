@@ -159,14 +159,14 @@ def main(iterations, axiom, rules, angle, length=None, size=None, correction_ang
 
 width = 450
 
-title = "Cross"
-axiom = "F+F+F+F"
-rules = {"F":"F+FF++F+F"}
+title = "Peano-Gosper-Curve" 
+axiom = "FX"
+rules = {"X":"X+YF++YF-FX--FXFX-YF+", "Y":"-FX+YFYF++YF+FX--FX-Y"}
 iterations = 3 # TOP: 6
-angle = 90
+angle = 60
 
-offset_angle = -120 + 30 * iterations
-correction_angle = -30 + 30 * iterations
+offset_angle = -90 + 15 * iterations
+correction_angle = 15 * iterations
 
 main(iterations, axiom, rules, angle, correction_angle=correction_angle, 
     offset_angle=offset_angle, aspect_ratio=1, width=width)
